@@ -16,7 +16,7 @@ security:
 menu:
   main:
     - name: Blog
-      pageRef: /blog
+      url: "https://scurrra.github.io/yacp-diaries/blog/"
       weight: 1
     - name: DSA Book
       weight: 2

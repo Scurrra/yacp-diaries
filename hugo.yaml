@@ -19,8 +19,8 @@ menu:
       pageRef: /blog
       weight: 1
     - name: DSA Book
-      url: "https://scurrra.github.io/atl/book"
       weight: 2
+      url: "https://scurrra.github.io/atl/book"
     - name: Search
       weight: 3
       params:

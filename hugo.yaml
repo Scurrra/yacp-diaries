@@ -20,7 +20,7 @@ menu:
       weight: 1
     - name: DSA Book
       weight: 2
-      url: "https://scurrra.github.io/atl/book"
+      url: "https://scurrra.github.io/atl/book/"
     - name: Search
       weight: 3
       params:

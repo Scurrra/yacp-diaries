@@ -1,0 +1,14 @@
+baseURL: https://scurrra.github.io/yacp-diaries/
+locale: en-us
+title: Yet Another Competitive Programming Journey
+
+module:
+  imports:
+    - path: github.com/imfing/hextra
+
+security:
+  http:
+    urls:
+      - '^https?://cdn\.jsdelivr\.net/.*'
+      - "^https?://[a-z]"
+      - "! (?i)localhost"

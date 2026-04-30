@@ -12,3 +12,27 @@ security:
       - '^https?://cdn\.jsdelivr\.net/.*'
       - "^https?://[a-z]"
       - "! (?i)localhost"
+
+menu:
+  main:
+    - name: Blog
+      pageRef: /blog
+      weight: 1
+    - name: ATL Book
+      pageRef: ../atl/book
+      weight: 2
+    - name: Search
+      weight: 3
+      params:
+        type: search
+    - name: GitHub
+      weight: 4
+      url: "https://github.com/Scurrra/yacp-diaries"
+      params:
+        icon: github
+
+params:
+  # Display the last modification date
+  displayUpdatedDate: false # it's broken
+  dateFormat: "May 1, 2006"
+  enableGitInfo: true
